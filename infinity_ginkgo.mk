@@ -24,18 +24,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from ginkgo device
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
-# Inherit some common Evolution-X stuff
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# Evolution-X Specific Flags
+# Infinity-X Specific Flags
+INFINITY_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_PICO_GAPPS := true
-TARGET_BUILD_APERTURE_CAMERA := false
+INFINITY_MAINTAINER := tejas101k
 TARGET_BUILD_VIMUSIC := true
 
 # Device identifier
-PRODUCT_NAME := evolution_ginkgo
+PRODUCT_NAME := infinity_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T

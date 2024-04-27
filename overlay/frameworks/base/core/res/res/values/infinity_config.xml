@@ -39,12 +39,6 @@
     <bool name="config_pocketModeSupported">true</bool>
     <bool name="config_pocketUseLightSensor">true</bool>
 
-    <!-- LiveDisplay -->
-    <bool name="config_enableLiveDisplay">false</bool>
-
-    <!-- Whether to enable Lineage Health Service -->
-    <bool name="config_lineageHealthSupported">true</bool>
-
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">false</bool>
 
